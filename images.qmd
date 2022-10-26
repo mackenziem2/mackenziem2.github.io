@@ -1,0 +1,13 @@
+---
+title: <i class="fa-solid fa-cubes-stacked"></i> Image Gallery
+# fig-cap-location: margin
+tbl-colwidths: [35, 10, 35, 20]
+---
+
+::: column-screen-inset
+| Project                                                                      | Item | Title                                                  | Image                                                                                                                                                                             |
+|------------------------------------------------------------------------------|------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Economic Impact of Passenger Rail Improvements in the Richmond Region (2022) | Map  | State-funded passenger rail lines operating in 2022    | [![](images/Routes-station-labels.png){#fig-routes-drpt fig-alt="Map of passenger rail routes in Virginia"}](images/Routes-station-labels.png)                                    |
+| Economic Impact of Passenger Rail Improvements in the Richmond Region (2022) | Map  | Distribution of 2020 population in the Richmond region | [![](images/hex_pop_v001.png){#fig-pop-drpt fig-alt="Map of the Richmond region with the population distribution noted using different color hexagons"}](images/hex_pop_v001.png) |
+| Economic Impact of Passenger Rail Improvements in the Richmond Region (2022) | Map  | Distribution of 2020 jobs in the Richmond region       | [![](images/hex_jobs.png){#fig-jobs-drpt fig-alt="Map of the Richmond region with the distribution of jobs noted using different color hexagons"}](images/hex_jobs.png)           |
+:::

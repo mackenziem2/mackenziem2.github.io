@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "6ef0f6bd"
+  },
+  "entries/Resume_web.qmd": {
+    "Resume_web.html": "3fb1ba8d"
+  },
+  "entries/about.qmd": {
+    "about.html": "fd16feac"
+  },
+  "projects/p-index.qmd": {
+    "p-index.html": "c9ece266"
+  },
+  "resume.Rmd": {
+    "resume.html": "86320854"
+  },
+  "resume_template.qmd": {
+    "resume_template.html": "3a24d53f"
+  },
+  "toss.Rmd": {
+    "toss.html": "3985dbbe"
+  },
+  "images/images.qmd": {
+    "images.html": "f2de25d3"
+  },
+  "images.qmd": {
+    "images.html": "48234dcf"
+  },
+  "entries/callouts.qmd": {
+    "callouts.html": "8dc57e54"
+  }
+}

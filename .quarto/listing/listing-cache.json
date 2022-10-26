@@ -1,0 +1,11 @@
+{
+  "listingMap": {
+    "images\\images.qmd": [
+      "images"
+    ],
+    "images.qmd": [
+      "images",
+      "images/*.png"
+    ]
+  }
+}

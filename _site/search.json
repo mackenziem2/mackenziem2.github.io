@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": " mapRefs",
+    "section": "",
+    "text": "This is mapRefs: a portfolio of Mike MacKenzie’s work and a space to host apps and interactive reports.\n\n\n\n\n\n\n\n\n\n\n\nemail: contact@maprefs.com\nsocial:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "rdata <- jsonlite::fromJSON(\"D:/Resume/resume.json\", flatten = TRUE)\nnewskill <- tibble::tibble(\n  name = c(\n    \"Research and analysis\",\n    \"Program and policy evaluation\",\n    \"Data visualization\",\n    \"Report creation/interaction\",\n    \"Project Management\"\n  ),\n  level = c(\n   \"\",\n   \"\",\n   \"\",\n   \"\",\n   \"\"\n  ),\n  keywords = c(\n    \"Quantitative and qualitative methods\",\n    \"Economic and fiscal impacts, spatial analysis\",\n    \"ggplot2, ESRI/ArcMap, Adobe Suite/Inkscape\",\n    \"Shiny dashboards, technical writing, public speaking\",\n    \"Administration, budgeting\"\n  )\n )\nrdata$skills <- newskill"
+  },
+  {
+    "objectID": "resume.html#contact",
+    "href": "resume.html#contact",
+    "title": "Resume",
+    "section": "Contact Info",
+    "text": "Contact Info\n\n rdata$basics$email\n shiny.maprefs.com\n +1 rdata$basics$phone\nFor more information, please contact me via email, phone, or SMS."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\n\n[1] \"Research and analysis\"\n[1] \"Program and policy evaluation\"\n[1] \"Data visualization\"\n[1] \"Report creation/interaction\"\n[1] \"Project Management\""
+  },
+  {
+    "objectID": "resume.html#disclaimer",
+    "href": "resume.html#disclaimer",
+    "title": "Resume",
+    "section": "Disclaimer",
+    "text": "Disclaimer\nThis resume was made with the R package pagedown.\nLast updated on 2022-10-24."
+  },
+  {
+    "objectID": "resume.html#title",
+    "href": "resume.html#title",
+    "title": "Resume",
+    "section": "Lijia Yu",
+    "text": "Lijia Yu\n\nCurrently searching for a PhD student position\nPlease note that this is a real resume, and I’m really looking for a PhD student position at the moment. I made this resume because Yihui asked me if I’d like to test the pagedown package with my resume. If you are interested in my background and skills, please feel free to contact me."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\n\nBeijing University of Chemical Technology\nB.S. in Information and Computing Sciences\nBeijing, China\n2010\nThesis: Dyadic wavelet and its application in edge detection\n\n\nUniversity of Chinese Academy of Sciences\nM.S. in Bioinformatics\nBeijing, China\n2014\nThesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals"
+  },
+  {
+    "objectID": "resume.html#research-experience",
+    "href": "resume.html#research-experience",
+    "title": "Resume",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nGraduate Research Assistant\nBeijing Institute of Genomics, Chinese Academy of Sciences\nBeijing, China\n2011 - 2014\n\nPerformed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.\nFound EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.\n\n\n\nBioinformatican\nMy Health Gene Technology Co., Ltd.\nBeijing, China\n2015 - 2016\n\nInvestigated how cancer cells spread to other parts of the body at the single cell level.\n\n\n\nVisiting Scientist\nUniversity of Alabama at Birmingham\nAL, USA\n2016 - 2018\n\nInvestigated the role of mitochondria in development of cancer.\nInvestigated the evolution of genome architecture and its role in important evolutionary events.\nDetected thrombotic thrombocytopenic purpura related mutations in mutiple patients’ blood genome."
+  },
+  {
+    "objectID": "resume.html#professional-experience",
+    "href": "resume.html#professional-experience",
+    "title": "Resume",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nData Scientist, intern\nSupStat Inc.\nBeijing, China\n2014\n\n\nTaught R language to beginners.\nWrote Shiny app demos.\nConverted statistical tutorials from SPSS to R language.\n\n\n\n\nBioinformatician\nMy Health Gene Technology Co., Ltd.\nBeijing, China\n2015 - 2016\n\n\nAnalyzed whole-exome sequencing data.\nWrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.\nStudied tumor metastasis and wrote research reports.\nAlso did case studies to identify the genetic defect causing rare disease."
+  },
+  {
+    "objectID": "resume.html#teaching-experience",
+    "href": "resume.html#teaching-experience",
+    "title": "Resume",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nIntroduction to R Language for Beginners.\nInstructor of R and Data Mining Training Courses at SupStat Inc.\nBeijing, China\n2014\n\n\nComputational Biology and Bioinformatics.\nTeaching assistant of GBS CB2-201 courses at UAB\nAL, USA\n2016 - 2017"
+  },
+  {
+    "objectID": "resume.html#selected-publications-and-posters",
+    "href": "resume.html#selected-publications-and-posters",
+    "title": "Resume",
+    "section": "Selected Publications and Posters",
+    "text": "Selected Publications and Posters\n\nGenetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.\nPoster for 2013 International Conference of Genomics\nQingdao, China\n2014\nYu L, Chen B, Zhang Z.\n\n\nESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.\nJ Cell Sci. 2016 May 15;129(10):2075-84.\nN/A\n2016\nSheng Z, Yu L, Zhang T, Pei X, Li X, Zhang Z and Du W."
+  },
+  {
+    "objectID": "toss.html",
+    "href": "toss.html",
+    "title": "Lijia Yu’s resume",
+    "section": "",
+    "text": "Lijia Yu\n\n\n\n\n\n lijia.yu@outlook.com\n github.com/yulijia\n +1 000-000-0000\nFor more information, please contact me via email.\n\n\n\n\n\nExperienced in statistical analysis, statistical learning models, and optimization methods.\nFull experience with next generation sequencing data analysis.\nHighly skilled in R, Bash, Perl, Python, LaTeX\n\n\n\n\nThis resume was made with the R package pagedown.\nLast updated on 2022-10-24."
+  },
+  {
+    "objectID": "toss.html#title",
+    "href": "toss.html#title",
+    "title": "Lijia Yu’s resume",
+    "section": "Lijia Yu",
+    "text": "Lijia Yu\n\nCurrently searching for a PhD student position\nPlease note that this is a real resume, and I’m really looking for a PhD student position at the moment. I made this resume because Yihui asked me if I’d like to test the pagedown package with my resume. If you are interested in my background and skills, please feel free to contact me."
+  },
+  {
+    "objectID": "toss.html#education",
+    "href": "toss.html#education",
+    "title": "Lijia Yu’s resume",
+    "section": "Education",
+    "text": "Education\n\nBeijing University of Chemical Technology\nB.S. in Information and Computing Sciences\nBeijing, China\n2010\nThesis: Dyadic wavelet and its application in edge detection\n\n\nUniversity of Chinese Academy of Sciences\nM.S. in Bioinformatics\nBeijing, China\n2014\nThesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals"
+  },
+  {
+    "objectID": "toss.html#research-experience",
+    "href": "toss.html#research-experience",
+    "title": "Lijia Yu’s resume",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nGraduate Research Assistant\nBeijing Institute of Genomics, Chinese Academy of Sciences\nBeijing, China\n2011 - 2014\n\nPerformed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.\nFound EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.\n\n\n\nBioinformatican\nMy Health Gene Technology Co., Ltd.\nBeijing, China\n2015 - 2016\n\nInvestigated how cancer cells spread to other parts of the body at the single cell level.\n\n\n\nVisiting Scientist\nUniversity of Alabama at Birmingham\nAL, USA\n2016 - 2018\n\nInvestigated the role of mitochondria in development of cancer.\nInvestigated the evolution of genome architecture and its role in important evolutionary events.\nDetected thrombotic thrombocytopenic purpura related mutations in mutiple patients’ blood genome."
+  },
+  {
+    "objectID": "toss.html#professional-experience",
+    "href": "toss.html#professional-experience",
+    "title": "Lijia Yu’s resume",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nData Scientist, intern\nSupStat Inc.\nBeijing, China\n2014\n\n\nTaught R language to beginners.\nWrote Shiny app demos.\nConverted statistical tutorials from SPSS to R language.\n\n\n\n\nBioinformatician\nMy Health Gene Technology Co., Ltd.\nBeijing, China\n2015 - 2016\n\n\nAnalyzed whole-exome sequencing data.\nWrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.\nStudied tumor metastasis and wrote research reports.\nAlso did case studies to identify the genetic defect causing rare disease."
+  },
+  {
+    "objectID": "toss.html#teaching-experience",
+    "href": "toss.html#teaching-experience",
+    "title": "Lijia Yu’s resume",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nIntroduction to R Language for Beginners.\nInstructor of R and Data Mining Training Courses at SupStat Inc.\nBeijing, China\n2014\n\n\nComputational Biology and Bioinformatics.\nTeaching assistant of GBS CB2-201 courses at UAB\nAL, USA\n2016 - 2017"
+  },
+  {
+    "objectID": "toss.html#selected-publications-and-posters",
+    "href": "toss.html#selected-publications-and-posters",
+    "title": "Lijia Yu’s resume",
+    "section": "Selected Publications and Posters",
+    "text": "Selected Publications and Posters\n\nGenetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.\nPoster for 2013 International Conference of Genomics\nQingdao, China\n2014\nYu L, Chen B, Zhang Z.\n\n\nESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.\nJ Cell Sci. 2016 May 15;129(10):2075-84.\nN/A\n2016\nSheng Z, Yu L, Zhang T, Pei X, Li X, Zhang Z and Du W."
+  },
+  {
+    "objectID": "resume_template.html",
+    "href": "resume_template.html",
+    "title": "Resume",
+    "section": "",
+    "text": "lijia.yu@outlook.com\n github.com/yulijia\n +1 000-000-0000\nFor more information, please contact me via email.\n\n\n\n\n\nExperienced in statistical analysis, statistical learning models, and optimization methods.\nFull experience with next generation sequencing data analysis.\nHighly skilled in R, Bash, Perl, Python, LaTeX\n\n\n\n\nThis resume was made with the R package pagedown.\nLast updated on 2022-10-24."
+  },
+  {
+    "objectID": "resume_template.html#title",
+    "href": "resume_template.html#title",
+    "title": "Resume",
+    "section": "Lijia Yu",
+    "text": "Lijia Yu\n\nCurrently searching for a PhD student position\nPlease note that this is a real resume, and I’m really looking for a PhD student position at the moment. I made this resume because Yihui asked me if I’d like to test the pagedown package with my resume. If you are interested in my background and skills, please feel free to contact me."
+  },
+  {
+    "objectID": "resume_template.html#education",
+    "href": "resume_template.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\n\nBeijing University of Chemical Technology\nB.S. in Information and Computing Sciences\nBeijing, China\n2010\nThesis: Dyadic wavelet and its application in edge detection\n\n\nUniversity of Chinese Academy of Sciences\nM.S. in Bioinformatics\nBeijing, China\n2014\nThesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals"
+  },
+  {
+    "objectID": "resume_template.html#research-experience",
+    "href": "resume_template.html#research-experience",
+    "title": "Resume",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nGraduate Research Assistant\nBeijing Institute of Genomics, Chinese Academy of Sciences\nBeijing, China\n2011 - 2014\n\nPerformed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.\nFound EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.\n\n\n\nBioinformatican\nMy Health Gene Technology Co., Ltd.\nBeijing, China\n2015 - 2016\n\nInvestigated how cancer cells spread to other parts of the body at the single cell level.\n\n\n\nVisiting Scientist\nUniversity of Alabama at Birmingham\nAL, USA\n2016 - 2018\n\nInvestigated the role of mitochondria in development of cancer.\nInvestigated the evolution of genome architecture and its role in important evolutionary events.\nDetected thrombotic thrombocytopenic purpura related mutations in mutiple patients’ blood genome."
+  },
+  {
+    "objectID": "resume_template.html#professional-experience",
+    "href": "resume_template.html#professional-experience",
+    "title": "Resume",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nData Scientist, intern\nSupStat Inc.\nBeijing, China\n2014\n\n\nTaught R language to beginners.\nWrote Shiny app demos.\nConverted statistical tutorials from SPSS to R language.\n\n\n\n\nBioinformatician\nMy Health Gene Technology Co., Ltd.\nBeijing, China\n2015 - 2016\n\n\nAnalyzed whole-exome sequencing data.\nWrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.\nStudied tumor metastasis and wrote research reports.\nAlso did case studies to identify the genetic defect causing rare disease."
+  },
+  {
+    "objectID": "resume_template.html#teaching-experience",
+    "href": "resume_template.html#teaching-experience",
+    "title": "Resume",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nIntroduction to R Language for Beginners.\nInstructor of R and Data Mining Training Courses at SupStat Inc.\nBeijing, China\n2014\n\n\nComputational Biology and Bioinformatics.\nTeaching assistant of GBS CB2-201 courses at UAB\nAL, USA\n2016 - 2017"
+  },
+  {
+    "objectID": "resume_template.html#selected-publications-and-posters",
+    "href": "resume_template.html#selected-publications-and-posters",
+    "title": "Resume",
+    "section": "Selected Publications and Posters",
+    "text": "Selected Publications and Posters\n\nGenetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.\nPoster for 2013 International Conference of Genomics\nQingdao, China\n2014\nYu L, Chen B, Zhang Z.\n\n\nESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.\nJ Cell Sci. 2016 May 15;129(10):2075-84.\nN/A\n2016\nSheng Z, Yu L, Zhang T, Pei X, Li X, Zhang Z and Du W."
+  },
+  {
+    "objectID": "entries/Resume_web.html",
+    "href": "entries/Resume_web.html",
+    "title": "Mike MacKenzie",
+    "section": "",
+    "text": "Contact\nmikem@maprefs.com\n\n\n\n\n\n Experience\n\n\n\nDirector\n\nVCU Land Use Education Program\n\n\n\n\n2020 to present\n\n\nMy role at VCU is divided into two primary functions. I took on the role of Director at the Land Use Education Program (LUEP) in 2020. LUEP offers citizen planners—primarily municipal planning commission and Board of Zoning Appeals members—education and resources on the fundamentals of community planning, land use, and zoning law. My responsibilities and accomplishments include:\n\nOrganizing 6 or more 10-week educational programs throughout the year\n\nGenerating revenue for the broader Wilder School\n\nRecruiting subject matter experts to provide lectures\n\nEvent planning in virtual and in-person spaces\n\nGuiding and moderating lectures and classes\n\nServing on the Board of the Virginia chapter of the American Planning Association\n\n\n\n\n\nActing Director; Research Associate and Consultant\n\nVCU Center for Urban and Regional Analysis\n\n\n\n\n2016 to present\n\n\nI have worked as a research associate at CURA since August 2016. In that time I have grown from a support role to a managing role as the center’s acting director (since May 2022). My responsibilities include:\n\nCrafting proposals and creating project budgets\nWorking with clients on project timelines and deliverables\nDeveloping methodologies for economic impact and other evaluations\nManaging, processing, and summarizing sensitive data\nConducting analyses, synthesizing findings, and making recommendations\nWriting, editing, and formatting all projects\nServing on committees, including the 2020 Virginia Marijuana Legalization Workgroup\n\n\n\n\nResearch and Policy Analyst\n\nHousing Opportunities Made Equal (HOME) of Virginia\n\n\n\n\n2012 to 2016\n\n\nAt HOME, I managed research-oriented projects and investigations, conducted primary data collection, and assisted in writing grants. I also provided leaders with up-to-date figures on housing and housing-related issues in Virginia. My duties included:\n\nManaging Virginia-based investigation into the maintenance of bank-owned properties in neighborhoods throughout the Richmond and Hampton Roads regions. The investigation contributed to a record settlement with Fannie Mae.\nConducting fair housing analyses in Virginia and Louisiana.\nProviding fair housing investigators with data and maps that helped them to target their efforts in specific areas.\nReviewed and examined federally required analyses from local municipalities for HUD.\n\n\n\n\nGreen Specialist\n\nCommunity Housing Partners\n\n\n\n\n2010 to 2011\n\n\nProject manager for implementation of sustainable practices in multiple housing communities managed by CHP.\n\nSuccessfully coordinated the implementation of tenant-based requirements of HUD Green Retrofit Program.\nServed as liaison between construction, property management, and community residents, resulting in efficient and timely completion of construction.\nDeveloped guidebook and checklists to assist property managers in complying with HUD contract.\n\n\n\n\n\nDevelopment Associate\n\nVisual Arts Center of Richmond\n\n\n\n\n2006 to 2008\n\n\nManager of donor database and individual membership-level gifts.\n\n\n\nReporter/Producer/Announcer\n\nWVTF/RADIO IQ\n\n\n\n\n2003 to 2005\n\n\nPublic radio reporter and announcer for one of the largest public radio stations in Virginia.\n\nResearched, developed, produced, and announced news stories and information of import, resulting in timely broadcast of professional news and information.\nHelped in production of weekly public affairs show, including screening callers, recording the live broadcast, and editing the recorded broadcast for re-airing on multiple channels, ensuring compatibility with broadcast automation systems.\n\n\n\n\nReporter (freelance)\n\nWVTF/RADIO IQ, Virginia Public Radio, Virginia Foundation for the Humanities, National Public Radio, OutQ SiriusXM\n\n\n\n\nIndependent producer of news features for broadcast on radio, including WVTF/RADIO IQ, Virginia Public Radio, the Virginia Foundation for the Humanities, NPR, and OutQ SiriusXM.\n\nCovered the 2006 General Assembly session for Virginia Public Radio.\nProvided regular coverage of Virginia’s 2006 election.\n\n\n\n2003 to 2012\n\n\n\n\n\n Recent Work\n\n\nEconomic Impact of Passenger Rail Improvements in the Richmond Region: This report utilizes RIMS multipliers to estimate how investments in passenger rail at Richmond’s Main Street Station will impact the regional economy.\n\n\n2022 (Report)\n\n\nReal estate tax exemption worksheet: A web app allowing the user to model how changes to Richmond’s real estate tax rate or the creation of certain tax exemptions would impact tax revenue from residential real estate. Created using R and Shiny.\n\n\n2022 (Web app)\n\n\n\n\n\n Skills\n\n\nEconomic and fiscal impact analysis; spatial analysis; housing and population forecasting and projection; quantitative and qualitative methods; program and policy evaluation\n\n\nResearch and Analysis\n\n\nDatabase tools (SQL, APIs); “tidy” data concepts; R statistical language; visualization, dashboard, and web application tools (ggplot2, Adobe suite, shiny, markdown); cartography and mapping tools (open source and ESRI)\n\n\nData Management and Visualization\n\n\nWriting (technical, academic, journalistic); public speaking and presentation; remote learning and large meeting moderation\n\n\nCommunication\n\n\n\n\n\n Education\n\n\n\nMaster of Urban and Regional Planning\n\nVirginia Commonwealth University\n\n\n\n\n2009 to 2011\n\n\n\nBachelor of Arts, Communication Studies\n\nVirginia Tech\n\n\n\n\n2000 to 2004"
+  },
+  {
+    "objectID": "entries/about.html",
+    "href": "entries/about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects/p-index.html",
+    "href": "projects/p-index.html",
+    "title": " Projects",
+    "section": "",
+    "text": "Project\nType\nDescription\n\n\n\n\nReal estate tax change worksheet1\nShiny app\nA basic web app allowing users to visualize the impacts of changes to tax rates and exemptions on tax revenue and average tax bills (by owner tenure, neighborhood, and home value).\n\n\nEconomic Impact of Passenger Rail Improvements in the Richmond Region2\nReport (PDF) (Maps)\nAn analysis of how improvements to Richmond’s Main Street Station—capital investments and service increases—would flow through the regional economy.\n\n\n\n\n\n\n\n\nFootnotes\n\n\nMacKenzie, Michael. Real Estate Tax Exemption Worksheet. Shiny, Virginia Commonwealth University, 21 Oct. 2022, https://shiny.maprefs.com/txwksht/.↩︎\nMacKenzie, Mike. Economic Impact of Passenger Rail Improvements in the Richmond Region. VCU Center for Urban and Regional Analysis, July 2022, https://cura.vcu.edu/media/cura/CURA-MSS-Economic_Impact_Study_FINAL.pdf.↩︎"
+  },
+  {
+    "objectID": "images/images.html",
+    "href": "images/images.html",
+    "title": " Image Gallery",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "images.html",
+    "href": "images.html",
+    "title": " Image Gallery",
+    "section": "",
+    "text": "Project\nItem\nTitle\nImage\n\n\n\n\nEconomic Impact of Passenger Rail Improvements in the Richmond Region (2022)\nMap\nState-funded passenger rail lines operating in 2022\n\n\n\nEconomic Impact of Passenger Rail Improvements in the Richmond Region (2022)\nMap\nDistribution of 2020 population in the Richmond region\n\n\n\nEconomic Impact of Passenger Rail Improvements in the Richmond Region (2022)\nMap\nDistribution of 2020 jobs in the Richmond region"
+  },
+  {
+    "objectID": "entries/callouts.html",
+    "href": "entries/callouts.html",
+    "title": "callouts",
+    "section": "",
+    "text": "Tip\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nImportant\n\n\n\n\n\n\n\n\nDanger\n\n\n\nCaution!\n\n\n\n\n\n\n\n\nWarning\n\n\n\nWarning"
+  }
+]

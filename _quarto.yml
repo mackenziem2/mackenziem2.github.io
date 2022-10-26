@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+website:
+  title: <i class="fa-solid fa-arrows-to-dot"></i> mapRefs
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: entries/Resume_web.qmd
+        text: Resume
+      - href: projects/p-index.qmd
+        text: Projects
+      - href: images.qmd
+        text: Images
+      - href: index.qmd#sec-contact
+        text: Contact
+  page-footer:
+    left: 'All work produced by [Mike MacKenzie](mailto:contact@maprefs.com) as an employee of Virginia Commonwealth University and the [Center for Urban and Regional Analysis](https://cura.vcu.edu/).'
+    # left: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="maprefs.com" property="cc:attributionName" rel="cc:attributionURL">maprefs.com</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+format:
+  html:
+    mainfont: "'Karla', sans-serif"
+    monofont: "'Fira Code', 'DM Mono', monospace"
+    theme:
+      light: [flatly, lt_custom.scss]
+      dark: [darkly, dk_custom.scss]
+    include-in-header: 
+      text: '<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Fira+Code&family=Karla&family=Roboto&display=swap" rel="stylesheet"> <script src="https://kit.fontawesome.com/23f8a99df0.js" crossorigin="anonymous">;</script>'
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,17 @@
+---
+title: <i class="fa-solid fa-cubes-stacked"></i> Projects
+tbl-colwidths: [35, 15, 50]
+---
+
+A sample of our work.
+
+::: column-screen-inset
+| Project                                                                   | Type                                                                                                           | Description                                                                                                                                                                          |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Real estate tax change worksheet[^1]                                      | [Shiny app](https://shiny.maprefs.com/txwksht)                                                                 | A basic web app allowing users to visualize the impacts of changes to tax rates and exemptions on tax revenue and average tax bills (by owner tenure, neighborhood, and home value). |
+| Economic Impact of Passenger Rail Improvements in the Richmond Region[^2] | Report [(PDF)](https://cura.vcu.edu/media/cura/CURA-MSS-Economic_Impact_Study_FINAL.pdf) [(Maps)](/images.qmd) | An analysis of how improvements to Richmond's Main Street Station---capital investments and service increases---would flow through the regional economy.                             |
+:::
+
+[^1]: MacKenzie, Michael. *Real Estate Tax Exemption Worksheet*. Shiny, Virginia Commonwealth University, 21 Oct. 2022, <https://shiny.maprefs.com/txwksht/>.
+
+[^2]: MacKenzie, Mike. *Economic Impact of Passenger Rail Improvements in the Richmond Region*. VCU Center for Urban and Regional Analysis, July 2022, <https://cura.vcu.edu/media/cura/CURA-MSS-Economic_Impact_Study_FINAL.pdf>.

@@ -1,0 +1,258 @@
+---
+title: "Mike MacKenzie"
+subtitle: "Researcher and analyst"
+title-block-banner: "#454158"
+title-block-banner-color: "#F8F8F2"
+# title-block-categories: false
+# title-block-banner: '#22212C'
+# title-meta:
+format: html
+mainfont: "'Karla', sans-serif"
+monofont: "'Fira Code', 'DM Mono', monospace" 
+fontcolor: "#454158"
+backgroundcolor: "#F8F8F2"
+linkcolor: "#454158"
+include-in-header: 
+    text: '<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Fira+Code&family=Karla&family=Roboto&display=swap" rel="stylesheet"> <script src="https://kit.fontawesome.com/23f8a99df0.js" crossorigin="anonymous">;</script>'
+---
+
+::: column-body
+Skilled researcher, writer, and analyst in Richmond, Virginia.
+:::
+
+::: aside
+<i class="fa-solid fa-id-card"></i> **Contact**  
+mikem@maprefs.com
+:::
+
+::: column-body
+------------------------------------------------------------------------
+:::
+
+::: aside
+<i class="fa-solid fa-briefcase"></i> **Experience**  
+:::
+
+::: column-body
+
+Director
+
+:   [VCU Land Use Education Program](https://cura.vcu.edu/land-use-education)
+:::
+
+::: aside
+2020 to present
+:::
+
+::: column-body
+My role at VCU is divided into two primary functions. I took on the role of Director at the Land Use Education Program (LUEP) in 2020. LUEP offers citizen planners---primarily municipal planning commission and Board of Zoning Appeals members---education and resources on the fundamentals of community planning, land use, and zoning law. My responsibilities and accomplishments include:
+
+-   Organizing 6 or more 10-week educational programs throughout the year  
+-   Generating revenue for the broader Wilder School  
+-   Recruiting subject matter experts to provide lectures  
+-   Event planning in virtual and in-person spaces  
+-   Guiding and moderating lectures and classes  
+-   Serving on the Board of the Virginia chapter of the American Planning Association  
+:::
+
+::: column-body
+
+Acting Director; Research Associate and Consultant
+
+:   [VCU Center for Urban and Regional Analysis](https://cura.vcu.edu)
+:::
+
+::: aside
+2016 to present
+:::
+
+::: column-body
+I have worked as a research associate at CURA since August 2016. In that time I have grown from a support role to a managing role as the center's acting director (since May 2022). My responsibilities include:
+
+-   Crafting proposals and creating project budgets
+-   Working with clients on project timelines and deliverables
+-   Developing methodologies for economic impact and other evaluations
+-   Managing, processing, and summarizing sensitive data
+-   Conducting analyses, synthesizing findings, and making recommendations
+-   Writing, editing, and formatting all projects
+-   Serving on committees, including the 2020 Virginia Marijuana Legalization Workgroup
+:::
+
+::: column-body
+
+Research and Policy Analyst
+
+:   [Housing Opportunities Made Equal (HOME) of Virginia](https://homeofva.org)
+:::
+
+::: aside
+2012 to 2016
+:::
+
+::: column-body
+At HOME, I managed research-oriented projects and investigations, conducted primary data collection, and assisted in writing grants. I also provided leaders with up-to-date figures on housing and housing-related issues in Virginia. My duties included:
+
+-   Managing Virginia-based investigation into the maintenance of bank-owned properties in neighborhoods throughout the Richmond and Hampton Roads regions. The investigation contributed to a record settlement with Fannie Mae.
+-   Conducting fair housing analyses in Virginia and Louisiana.
+-   Providing fair housing investigators with data and maps that helped them to target their efforts in specific areas.
+-   Reviewed and examined federally required analyses from local municipalities for HUD.
+:::
+
+::: column-body
+
+Green Specialist
+
+:   [Community Housing Partners](https://communityhousingpartners.org)
+:::
+
+::: aside
+2010 to 2011
+:::
+
+::: column-body
+Project manager for implementation of sustainable practices in multiple housing communities managed by CHP.
+
+-   Successfully coordinated the implementation of tenant-based requirements of HUD Green Retrofit Program.
+-   Served as liaison between construction, property management, and community residents, resulting in efficient and timely completion of construction.
+-   Developed guidebook and checklists to assist property managers in complying with HUD contract.  
+:::
+
+::: column-body
+
+Development Associate
+
+:   [Visual Arts Center of Richmond](https://www.visarts.org)
+:::
+
+::: aside
+2006 to 2008
+:::
+
+::: column-body
+Manager of donor database and individual membership-level gifts.
+:::
+
+::: column-body
+
+Reporter/Producer/Announcer
+
+:   [WVTF/RADIO IQ](https://www.wvtf.org)
+:::
+
+::: aside
+2003 to 2005
+:::
+
+::: column-body
+Public radio reporter and announcer for one of the largest public radio stations in Virginia.
+
+-   Researched, developed, produced, and announced news stories and information of import, resulting in timely broadcast of professional news and information.
+-   Helped in production of weekly public affairs show, including screening callers, recording the live broadcast, and editing the recorded broadcast for re-airing on multiple channels, ensuring compatibility with broadcast automation systems.
+:::
+
+::: column-body
+
+Reporter (freelance)
+
+:   WVTF/RADIO IQ, Virginia Public Radio, Virginia Foundation for the Humanities, National Public Radio, OutQ SiriusXM
+:::
+
+::: column-body
+Independent producer of news features for broadcast on radio, including WVTF/RADIO IQ, Virginia Public Radio, the Virginia Foundation for the Humanities, NPR, and OutQ SiriusXM.
+
+-   Covered the 2006 General Assembly session for Virginia Public Radio.
+-   Provided regular coverage of Virginia's 2006 election.
+:::
+
+::: aside
+2003 to 2012
+:::
+
+::: column-body
+
+------------------------------------------------------------------------
+:::
+
+::: aside
+<i class="fa-solid fa-map"></i> **Recent Work**
+:::
+
+::: column-body
+[**Economic Impact of Passenger Rail Improvements in the Richmond Region**](https://cura.vcu.edu/media/cura/CURA-MSS-Economic_Impact_Study_FINAL.pdf): This report utilizes RIMS multipliers to estimate how investments in passenger rail at Richmond's Main Street Station will impact the regional economy.
+:::
+
+::: aside
+2022 (Report)
+:::
+
+::: column-body
+[**Real estate tax exemption worksheet**](https://shiny.maprefs.com/txwksht/): A web app allowing the user to model how changes to Richmond's real estate tax rate or the creation of certain tax exemptions would impact tax revenue from residential real estate. Created using R and Shiny.
+:::
+
+::: aside
+2022 (Web app)
+:::
+
+::: column-body
+
+------------------------------------------------------------------------
+:::
+
+::: aside
+<i class="fa-solid fa-check"></i> **Skills**
+:::
+
+::: column-body
+Economic and fiscal impact analysis; spatial analysis; housing and population forecasting and projection; quantitative and qualitative methods; program and policy evaluation
+:::
+
+::: aside
+**Research and Analysis**
+:::
+
+::: column-body
+Database tools (SQL, APIs); "tidy" data concepts; R statistical language; visualization, dashboard, and web application tools (ggplot2, Adobe suite, shiny, markdown); cartography and mapping tools (open source and ESRI)
+:::
+
+::: aside
+**Data Management and Visualization**
+:::
+
+::: column-body
+Writing (technical, academic, journalistic); public speaking and presentation; remote learning and large meeting moderation
+:::
+
+::: aside
+**Communication**
+:::
+
+::: column-body
+
+------------------------------------------------------------------------
+:::
+
+::: aside
+<i class="fa-solid fa-book-open"></i> **Education**
+:::
+
+::: column-body
+
+Master of Urban and Regional Planning
+
+:   Virginia Commonwealth University
+:::
+
+::: aside
+2009 to 2011
+:::
+
+::: column-body
+
+Bachelor of Arts, Communication Studies
+
+:   Virginia Tech
+:::
+
+::: aside
+2000 to 2004
+:::

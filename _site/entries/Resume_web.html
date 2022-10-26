@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title> mapRefs - Mike MacKenzie</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      color: #F8F8F2;
+background: #454158;
+    }
+    </style>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono&amp;family=Fira+Code&amp;family=Karla&amp;family=Roboto&amp;display=swap" rel="stylesheet"> <script src="https://kit.fontawesome.com/23f8a99df0.js" crossorigin="anonymous">;</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title"><i class="fa-solid fa-arrows-to-dot"></i> mapRefs</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../entries/Resume_web.html" aria-current="page">Resume</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects/p-index.html">Projects</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../images.html">Images</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html#sec-contact">Contact</a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Mike MacKenzie</h1>
+            <p class="subtitle lead">Researcher and analyst</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<div class="column-body">
+<p>Skilled researcher, writer, and analyst in Richmond, Virginia.</p>
+</div>
+<div class="aside">
+<p><i class="fa-solid fa-id-card"></i> <strong>Contact</strong><br>
+mikem@maprefs.com</p>
+</div>
+<div class="column-body">
+<hr>
+</div>
+<div class="aside">
+<p><i class="fa-solid fa-briefcase"></i> <strong>Experience</strong></p>
+</div>
+<div class="column-body">
+<dl>
+<dt>Director</dt>
+<dd>
+<p><a href="https://cura.vcu.edu/land-use-education">VCU Land Use Education Program</a></p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2020 to present</p>
+</div>
+<div class="column-body">
+<p>My role at VCU is divided into two primary functions. I took on the role of Director at the Land Use Education Program (LUEP) in 2020. LUEP offers citizen planners—primarily municipal planning commission and Board of Zoning Appeals members—education and resources on the fundamentals of community planning, land use, and zoning law. My responsibilities and accomplishments include:</p>
+<ul>
+<li>Organizing 6 or more 10-week educational programs throughout the year<br>
+</li>
+<li>Generating revenue for the broader Wilder School<br>
+</li>
+<li>Recruiting subject matter experts to provide lectures<br>
+</li>
+<li>Event planning in virtual and in-person spaces<br>
+</li>
+<li>Guiding and moderating lectures and classes<br>
+</li>
+<li>Serving on the Board of the Virginia chapter of the American Planning Association<br>
+</li>
+</ul>
+</div>
+<div class="column-body">
+<dl>
+<dt>Acting Director; Research Associate and Consultant</dt>
+<dd>
+<p><a href="https://cura.vcu.edu">VCU Center for Urban and Regional Analysis</a></p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2016 to present</p>
+</div>
+<div class="column-body">
+<p>I have worked as a research associate at CURA since August 2016. In that time I have grown from a support role to a managing role as the center’s acting director (since May 2022). My responsibilities include:</p>
+<ul>
+<li>Crafting proposals and creating project budgets</li>
+<li>Working with clients on project timelines and deliverables</li>
+<li>Developing methodologies for economic impact and other evaluations</li>
+<li>Managing, processing, and summarizing sensitive data</li>
+<li>Conducting analyses, synthesizing findings, and making recommendations</li>
+<li>Writing, editing, and formatting all projects</li>
+<li>Serving on committees, including the 2020 Virginia Marijuana Legalization Workgroup</li>
+</ul>
+</div>
+<div class="column-body">
+<dl>
+<dt>Research and Policy Analyst</dt>
+<dd>
+<p><a href="https://homeofva.org">Housing Opportunities Made Equal (HOME) of Virginia</a></p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2012 to 2016</p>
+</div>
+<div class="column-body">
+<p>At HOME, I managed research-oriented projects and investigations, conducted primary data collection, and assisted in writing grants. I also provided leaders with up-to-date figures on housing and housing-related issues in Virginia. My duties included:</p>
+<ul>
+<li>Managing Virginia-based investigation into the maintenance of bank-owned properties in neighborhoods throughout the Richmond and Hampton Roads regions. The investigation contributed to a record settlement with Fannie Mae.</li>
+<li>Conducting fair housing analyses in Virginia and Louisiana.</li>
+<li>Providing fair housing investigators with data and maps that helped them to target their efforts in specific areas.</li>
+<li>Reviewed and examined federally required analyses from local municipalities for HUD.</li>
+</ul>
+</div>
+<div class="column-body">
+<dl>
+<dt>Green Specialist</dt>
+<dd>
+<p><a href="https://communityhousingpartners.org">Community Housing Partners</a></p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2010 to 2011</p>
+</div>
+<div class="column-body">
+<p>Project manager for implementation of sustainable practices in multiple housing communities managed by CHP.</p>
+<ul>
+<li>Successfully coordinated the implementation of tenant-based requirements of HUD Green Retrofit Program.</li>
+<li>Served as liaison between construction, property management, and community residents, resulting in efficient and timely completion of construction.</li>
+<li>Developed guidebook and checklists to assist property managers in complying with HUD contract.<br>
+</li>
+</ul>
+</div>
+<div class="column-body">
+<dl>
+<dt>Development Associate</dt>
+<dd>
+<p><a href="https://www.visarts.org">Visual Arts Center of Richmond</a></p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2006 to 2008</p>
+</div>
+<div class="column-body">
+<p>Manager of donor database and individual membership-level gifts.</p>
+</div>
+<div class="column-body">
+<dl>
+<dt>Reporter/Producer/Announcer</dt>
+<dd>
+<p><a href="https://www.wvtf.org">WVTF/RADIO IQ</a></p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2003 to 2005</p>
+</div>
+<div class="column-body">
+<p>Public radio reporter and announcer for one of the largest public radio stations in Virginia.</p>
+<ul>
+<li>Researched, developed, produced, and announced news stories and information of import, resulting in timely broadcast of professional news and information.</li>
+<li>Helped in production of weekly public affairs show, including screening callers, recording the live broadcast, and editing the recorded broadcast for re-airing on multiple channels, ensuring compatibility with broadcast automation systems.</li>
+</ul>
+</div>
+<div class="column-body">
+<dl>
+<dt>Reporter (freelance)</dt>
+<dd>
+<p>WVTF/RADIO IQ, Virginia Public Radio, Virginia Foundation for the Humanities, National Public Radio, OutQ SiriusXM</p>
+</dd>
+</dl>
+</div>
+<div class="column-body">
+<p>Independent producer of news features for broadcast on radio, including WVTF/RADIO IQ, Virginia Public Radio, the Virginia Foundation for the Humanities, NPR, and OutQ SiriusXM.</p>
+<ul>
+<li>Covered the 2006 General Assembly session for Virginia Public Radio.</li>
+<li>Provided regular coverage of Virginia’s 2006 election.</li>
+</ul>
+</div>
+<div class="aside">
+<p>2003 to 2012</p>
+</div>
+<div class="column-body">
+<hr>
+</div>
+<div class="aside">
+<p><i class="fa-solid fa-map"></i> <strong>Recent Work</strong></p>
+</div>
+<div class="column-body">
+<p><a href="https://cura.vcu.edu/media/cura/CURA-MSS-Economic_Impact_Study_FINAL.pdf"><strong>Economic Impact of Passenger Rail Improvements in the Richmond Region</strong></a>: This report utilizes RIMS multipliers to estimate how investments in passenger rail at Richmond’s Main Street Station will impact the regional economy.</p>
+</div>
+<div class="aside">
+<p>2022 (Report)</p>
+</div>
+<div class="column-body">
+<p><a href="https://shiny.maprefs.com/txwksht/"><strong>Real estate tax exemption worksheet</strong></a>: A web app allowing the user to model how changes to Richmond’s real estate tax rate or the creation of certain tax exemptions would impact tax revenue from residential real estate. Created using R and Shiny.</p>
+</div>
+<div class="aside">
+<p>2022 (Web app)</p>
+</div>
+<div class="column-body">
+<hr>
+</div>
+<div class="aside">
+<p><i class="fa-solid fa-check"></i> <strong>Skills</strong></p>
+</div>
+<div class="column-body">
+<p>Economic and fiscal impact analysis; spatial analysis; housing and population forecasting and projection; quantitative and qualitative methods; program and policy evaluation</p>
+</div>
+<div class="aside">
+<p><strong>Research and Analysis</strong></p>
+</div>
+<div class="column-body">
+<p>Database tools (SQL, APIs); “tidy” data concepts; R statistical language; visualization, dashboard, and web application tools (ggplot2, Adobe suite, shiny, markdown); cartography and mapping tools (open source and ESRI)</p>
+</div>
+<div class="aside">
+<p><strong>Data Management and Visualization</strong></p>
+</div>
+<div class="column-body">
+<p>Writing (technical, academic, journalistic); public speaking and presentation; remote learning and large meeting moderation</p>
+</div>
+<div class="aside">
+<p><strong>Communication</strong></p>
+</div>
+<div class="column-body">
+<hr>
+</div>
+<div class="aside">
+<p><i class="fa-solid fa-book-open"></i> <strong>Education</strong></p>
+</div>
+<div class="column-body">
+<dl>
+<dt>Master of Urban and Regional Planning</dt>
+<dd>
+<p>Virginia Commonwealth University</p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2009 to 2011</p>
+</div>
+<div class="column-body">
+<dl>
+<dt>Bachelor of Arts, Communication Studies</dt>
+<dd>
+<p>Virginia Tech</p>
+</dd>
+</dl>
+</div>
+<div class="aside">
+<p>2000 to 2004</p>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">All work produced by <a href="mailto:contact@maprefs.com">Mike MacKenzie</a> as an employee of Virginia Commonwealth University and the <a href="https://cura.vcu.edu/">Center for Urban and Regional Analysis</a>.</div>   
+  </div>
+</footer>
+
+
+
+</body></html>
