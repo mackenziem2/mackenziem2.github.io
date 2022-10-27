@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 website:
   title: <i class="fa-solid fa-arrows-to-dot"></i> mapRefs
   navbar:
