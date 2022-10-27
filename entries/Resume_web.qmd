@@ -1,17 +1,9 @@
 ---
 title: "Mike MacKenzie"
 subtitle: "Researcher and analyst"
-title-block-banner: "#454158"
-title-block-banner-color: "#F8F8F2"
-# title-block-categories: false
-# title-block-banner: '#22212C'
-# title-meta:
 format: html
 mainfont: "'Karla', sans-serif"
 monofont: "'Fira Code', 'DM Mono', monospace" 
-fontcolor: "#454158"
-backgroundcolor: "#F8F8F2"
-linkcolor: "#454158"
 include-in-header: 
     text: '<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Fira+Code&family=Karla&family=Roboto&display=swap" rel="stylesheet"> <script src="https://kit.fontawesome.com/23f8a99df0.js" crossorigin="anonymous">;</script>'
 ---
