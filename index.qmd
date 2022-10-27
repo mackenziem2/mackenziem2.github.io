@@ -3,8 +3,6 @@ title: <i class="fa-solid fa-arrows-to-dot"></i> mapRefs
 ---
 
 ::: section-body
-<!-- This is **mapRefs**. We[^1] explore the programs, policies, and trends that influence our daily lives.  -->
-
 This is **mapRefs**: a portfolio of Mike MacKenzie's work and a space to host apps and interactive reports.
 
 ## [Projects](projects/p-index.qmd)
@@ -15,8 +13,6 @@ This is **mapRefs**: a portfolio of Mike MacKenzie's work and a space to host ap
 
 ## Contact {#sec-contact}
 
-email: contact\@maprefs.com  
-social:  [<i class="fa-brands fa-linkedin-in"></i>](https://www.linkedin.com/in/mrmackenzie/)
-
-
+email: contact\@maprefs.com\
+social: [<i class="fa-brands fa-linkedin-in"></i>](https://www.linkedin.com/in/mrmackenzie/)
 :::
